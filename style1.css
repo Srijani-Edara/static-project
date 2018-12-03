@@ -1,0 +1,71 @@
+body{
+  background: blue;
+}
+.maindiv{
+  background:aqua;
+  margin:3%;
+  border-radius: 5%;
+  display: flex;
+}
+.leftdiv{
+  background:pink;
+  margin:3%;
+  border-radius:5%;
+  box-shadow: 3px 3px 3px 3px;
+  text-align: center;
+  height: 80%;
+  position: fixed;
+  width: 25%;
+  margin:3%;
+}
+.rightdiv{
+  background: lightgreen;
+  margin: 3%;
+  border-radius: 5%;
+  padding:1%;
+  box-shadow:3px 3px 3px 3px blue;
+  width: 65%;
+  margin-left: 38%;
+}
+img{
+  margin:3%;
+  height:30%;
+  width:50%;
+}
+@media only screen and (min-width:750px) and (max-width:1000px) {
+  body{
+      background:pink;
+    }
+  .maindiv{
+    background:lightgreen;
+       margin:0%;
+  border-radius:3%;
+  display:inline-block;
+  justify-content: space-between;
+    width:100;
+}
+.leftdiv{
+  background:pink;
+  margin:3%;
+  border-radius:5%;
+  box-shadow: 3px 3px 3px 3px;
+  text-align: center;
+  height: 80%;
+  position:relative;
+  width:100%;
+  margin:3%;
+}
+.rightdiv{
+  background: lightgreen;
+  margin: 3%;
+  border-radius: 5%;
+  padding:1%;
+  box-shadow:3px 3px 3px 3px blue;
+  width: 100%;
+  margin-left: 38%;
+}
+img{
+  margin:3%;
+  height:30%;
+  width:50%;
+}
